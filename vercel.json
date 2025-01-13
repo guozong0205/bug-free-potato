@@ -1,21 +1,4 @@
 {
   "cleanUrls": true,
-  "trailingSlash": false,
-  "routes": [
-    {
-      "handle": "filesystem"
-    },
-    {
-      "src": "/about",
-      "dest": "/about.html"
-    },
-    {
-      "src": "/products",
-      "dest": "/products.html"
-    },
-    {
-      "src": "/contact",
-      "dest": "/contact.html"
-    }
-  ]
+  "trailingSlash": false
 } 
