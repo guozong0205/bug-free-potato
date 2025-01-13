@@ -1,35 +1,12 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "**/*",
-      "use": "@vercel/static"
-    }
-  ],
+  "framework": null,
+  "buildCommand": null,
+  "outputDirectory": null,
+  "cleanUrls": true,
+  "trailingSlash": false,
   "routes": [
     {
-      "src": "/",
-      "dest": "/index.html"
-    },
-    {
-      "src": "/about",
-      "dest": "/about.html"
-    },
-    {
-      "src": "/products",
-      "dest": "/products.html"
-    },
-    {
-      "src": "/contact",
-      "dest": "/contact.html"
-    },
-    {
-      "src": "/images/(.*)",
-      "dest": "/images/$1"
-    },
-    {
-      "src": "/(.+)",
-      "dest": "/$1"
+      "handle": "filesystem"
     }
   ]
 } 
